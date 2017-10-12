@@ -1,0 +1,32 @@
+key: insert_key
+attracties:
+- droomvlucht
+droomvlucht:
+  run_command: start
+  run_permissions: achtbaan.droomvlucht
+  spawn_command: spawn
+  spawn_permissions: achtbaan.droomvlucht
+  spawns:
+  - 1
+  - 2
+  spawn: #id
+    1:
+    - 'run:spawn world,0,73,0,0,0,iron_sword,2,0.3'
+    - 'run:allow_sit false'
+    2:
+    - 'run:spawn world,5,73,0,0,0,iron_sword,0,0.5'
+    - 'run:allow_sit false'
+  runs:
+  - 1
+  - 2
+  run: #id
+    1:
+    - 'run:allow_sit false'
+    - 'run:allow_leave false'
+    - 'run:move 0.1,0,0.1,0,0'
+    - 'wait:2'
+    - 'run:allow_sit true'
+    - 'run:allow_leave true'
+    2:
+    - 'run:move 0.1,0,0.1,10,-0.1'
+    - 'wait:2'

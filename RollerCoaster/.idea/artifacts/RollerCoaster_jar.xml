@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="RollerCoaster:jar">
+    <output-path>$PROJECT_DIR$/../servertje/plugins</output-path>
+    <root id="archive" name="RollerCoaster.jar">
+      <element id="module-output" name="RollerCoaster" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/readme.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/rollercoaster.yml" />
+    </root>
+  </artifact>
+</component>

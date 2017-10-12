@@ -1,0 +1,13 @@
+name: Rollercoaster
+version: 1.1
+description: Let's armostands act like a rollercoaster
+authors: [_deurklink_, Limited_Dani]
+website: https://daniquedejong.nl
+main: a.a.a.a
+database: false
+prefix: RollerCoaster-Plugin
+
+
+commands:
+  rc:
+    description: Rollercoaster command

@@ -1,0 +1,8 @@
+name: Achtbaan
+version: 1.0
+author: _deurklink_
+
+main: com.bartfijneman.achtbaan.Main
+
+commands:
+  achtbaan:
